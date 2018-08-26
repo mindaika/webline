@@ -128,7 +128,7 @@ class Game extends React.Component {
 // ========================================
 
 ReactDOM.render(<App />, document.getElementById('title'));
-ReactDOM.render(<Game />, document.getElementById('react-demo'));
+// ReactDOM.render(<Game />, document.getElementById('react-demo'));
 
 function calculateWinner(squares) {
     const lines = [
