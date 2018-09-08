@@ -1,8 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Header from './Header.js';
 import registerServiceWorker from './registerServiceWorker';
+import { BrowserRouter } from 'react-router-dom'
+import Main from "./Main";
 
-ReactDOM.render(<App />, document.getElementById('title'));
+// this component will be rendered by our <___Router>
+const App = () => (
+    <div>
+        <Header />
+        <Main />
+    </div>
+)
+
+ReactDOM.render((
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>), document.getElementById('root'));
 registerServiceWorker();
+
