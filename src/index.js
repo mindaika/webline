@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import registerServiceWorker from './registerServiceWorker';
+import './stylesheets/index.css';
+import registerServiceWorker from './util/registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom'
-import emoji from "./emoji.svg";
+import emoji from "./images/emoji.svg";
 import Link from "react-router-dom/es/Link";
 
 // this component will be rendered by our <___Router>
