@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './stylesheets/index.css';
-import registerServiceWorker from './util/registerServiceWorker';
+import registerServiceWorker from './registerServiceWorker';
 import { BrowserRouter } from 'react-router-dom'
 import emoji from "./images/emoji.svg";
 import Link from "react-router-dom/es/Link";
@@ -14,7 +14,7 @@ const App = () => (
     </div>
 );
 
-const Main = function() {
+const Main = () => {
         return (
             <div className="Header">
                 <main>
@@ -24,7 +24,7 @@ const Main = function() {
         );
 };
 
-const Header = function() {
+const Header = () => {
         return (
             <div className="Header">
                 <header className="Header-header">
