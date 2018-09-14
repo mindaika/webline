@@ -1,6 +1,7 @@
 import emoji from "../../images/emoji.svg";
 import Link from "react-router-dom/es/Link";
 import React from "react";
+import "./Header.css";
 
 const Header = () => {
     return (
