@@ -1,5 +1,5 @@
-import Header from "../../pages/Header/Header";
-import Main from "../../pages/Main/Main";
+import Header from "../../components/Header/Header";
+import Main from "../../components/Main/Main";
 import React from "react";
 import styles from './App.css';
 
